@@ -7,10 +7,10 @@ const About = () => {
   return (
     <div className='about-section-container'>
       <div className='about-background-image-container'>
-        <img src={AboutBackground} alt="image" />
+        <img src={AboutBackground} alt='description-img-background'/>
       </div>
       <div className='about-section-image-container'>
-        <img src={AboutBackgroundImage} alt="image" />
+        <img src={AboutBackgroundImage} alt='about-section-image'/>
       </div>
       <div className='about-section-text-container'>
         <p className='primary-subheading'>About</p>
