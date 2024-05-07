@@ -5,7 +5,6 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -16,7 +15,6 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
-import { scroller } from 'react-scroll';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -46,22 +44,22 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="image" />
+        <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
       <Link smooth={true} to='home'>
-        <a href="#">Home</a>
+        <a href="">Home</a>
       </Link>
       <Link smooth={true} to='about'>
-        <a href="#">About</a>
+        <a href="">About</a>
       </Link>
       <Link smooth={true} to='testimonial'>
-        <a href="#">Testimonials</a>
+        <a href="">Testimonials</a>
       </Link>
       <Link smooth={true} to='contact'>
-        <a href="#">Contact</a>
+        <a href="">Contact</a>
       </Link>
-        <a href="#">
+        <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button">Bookings Now</button>
