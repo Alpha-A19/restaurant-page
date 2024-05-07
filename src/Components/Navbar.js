@@ -46,22 +46,22 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="image" />
       </div>
       <div className="navbar-links-container">
       <Link smooth={true} to='home'>
-        <a href="">Home</a>
+        <a href="#">Home</a>
       </Link>
       <Link smooth={true} to='about'>
-        <a href="">About</a>
+        <a href="#">About</a>
       </Link>
       <Link smooth={true} to='testimonial'>
-        <a href="">Testimonials</a>
+        <a href="#">Testimonials</a>
       </Link>
       <Link smooth={true} to='contact'>
-        <a href="">Contact</a>
+        <a href="#">Contact</a>
       </Link>
-        <a href="">
+        <a href="#">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button">Bookings Now</button>
