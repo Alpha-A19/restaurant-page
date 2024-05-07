@@ -14,7 +14,7 @@ const Testimonial = () => {
         </p>
       </div>
       <div className="testimonial-section-bottom">
-        <img src={ProfilePic} alt="" />
+        <img src={ProfilePic} alt="testimonial-img" />
         <p>
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
