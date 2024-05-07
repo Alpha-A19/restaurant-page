@@ -48,20 +48,20 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
       <Link smooth={true} to='home'>
-        <a href="">Home</a>
+        <span>Home</span>
       </Link>
       <Link smooth={true} to='about'>
-        <a href="">About</a>
+        <span>About</span>
       </Link>
       <Link smooth={true} to='testimonial'>
-        <a href="">Testimonials</a>
+        <span>Testimonials</span>
       </Link>
       <Link smooth={true} to='contact'>
-        <a href="">Contact</a>
+        <span>Contact</span>
       </Link>
-        <a href="">
+        <span>
           <BsCart2 className="navbar-cart-icon" />
-        </a>
+        </span>
         <button className="primary-button">Bookings Now</button>
       </div>
       <div className="navbar-menu-container">
